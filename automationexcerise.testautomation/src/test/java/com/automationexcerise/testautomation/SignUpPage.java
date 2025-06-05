@@ -101,6 +101,11 @@ public class SignUpPage extends Setup {
 	@FindBy(xpath = "//button[normalize-space()='Create Account']")
 	WebElement create_account;
 	
+	@FindBy(xpath = "//a[normalize-space()='Continue']")
+	WebElement btncontinue;
+	
+	
+	
 	
 	public void clickSignup1() throws InterruptedException {
 		signup1.sendKeys(Keys.ENTER);
@@ -204,4 +209,8 @@ public class SignUpPage extends Setup {
 		Thread.sleep(2000);
 	}
 	
+	public void clickContinue() throws InterruptedException {
+		btncontinue.click();
+		Thread.sleep(2000);
+	}
 }

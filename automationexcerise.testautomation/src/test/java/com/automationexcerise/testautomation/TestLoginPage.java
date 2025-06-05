@@ -9,6 +9,7 @@ public class TestLoginPage extends Setup {
 	@Parameters({"email","password"})
 	public void testPage(String email, String password) throws InterruptedException{
 		LoginPage webpage = new LoginPage(driver);
+		webpage.clickLogout();
 		webpage.clickSignup1();
 		Thread.sleep(1000);
 		webpage.enterLoginEmail(email);

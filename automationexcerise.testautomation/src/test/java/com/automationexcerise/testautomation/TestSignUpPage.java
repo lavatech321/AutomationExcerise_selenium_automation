@@ -43,6 +43,7 @@ public class TestSignUpPage extends Setup {
 		signuppage.enterZip(zipcode);
 		signuppage.enterPhno(mobile);
 		signuppage.clickCreateAccount();
+		signuppage.clickContinue();
 	}
 
 }

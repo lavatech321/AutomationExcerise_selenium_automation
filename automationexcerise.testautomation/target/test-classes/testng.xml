@@ -2,14 +2,14 @@
 	
 	<parameter name="url" value="https://automationexercise.com/"/>
 	<parameter name="browser" value="chrome"/>
-	<parameter name="user" value="johnpax"/>  
-	<parameter name="email" value="johnpax2@gmail.com"/> <!-- Change this to create new user -->
+	<parameter name="user" value="Suryaarrow"/>  
+	<parameter name="email" value="suryaarrow@gmail.com"/> <!-- Change this to create new user -->
 	<parameter name="title" value="mr"/>
 	<parameter name="day" value="23"/>
 	<parameter name="month" value="June"/>
-	<parameter name="password" value="johnpax@123456"/>
-	<parameter name="name" value="John"/>
-	<parameter name="lname" value="Pax"/>
+	<parameter name="password" value="suryaarrow@123456"/>
+	<parameter name="name" value="Surya"/>
+	<parameter name="lname" value="Sparrow"/>
 	<parameter name="country" value="India"/>
 	<parameter name="address" value="Chandni Chowk"/>
 	<parameter name="state" value="Maharashtra"/>
@@ -26,7 +26,7 @@
 	
 	<test name="ChromeTest">
 	<classes>
-	<!-- <class name="com.automationexcerise.testautomation.TestSignUpPage" />  Comment this to use existing user  -->	 
+	 <class name="com.automationexcerise.testautomation.TestSignUpPage" />	 
 	    <class name="com.automationexcerise.testautomation.TestLoginPage" />
 	 	<class name="com.automationexcerise.testautomation.TestAddtoCart" /> 
 		<class name="com.automationexcerise.testautomation.TestPlaceOrder" /> 

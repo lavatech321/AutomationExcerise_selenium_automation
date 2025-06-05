@@ -13,6 +13,9 @@ public class LoginPage extends Setup {
         PageFactory.initElements(driver, this);
     }
 	
+	@FindBy(xpath = "//a[normalize-space()='Logout']")
+	WebElement logout;
+	
 	@FindBy(xpath = "//a[normalize-space()='Signup / Login']")
 	WebElement signup1;
 	
@@ -40,6 +43,10 @@ public class LoginPage extends Setup {
 	
 	public void clickLogin() {
 		login_button.click();
+	}
+	
+	public void clickLogout() {
+		logout.click();
 	}
 	
 }

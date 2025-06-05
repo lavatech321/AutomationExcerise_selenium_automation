@@ -14,7 +14,6 @@ public class TestAddtoCart extends Setup{
 	
 	@Test(priority=2)
 	public void testPage() throws InterruptedException {
-		System.out.println("Welcome");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,350)");
